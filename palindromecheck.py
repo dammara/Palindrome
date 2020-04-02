@@ -20,7 +20,7 @@ def p_check(string):
     if len(string) < 1:      # BASE CASE
         true()
     elif string[0] == string[-1]:
-            return p_check(string[1:-1])    # Will check each letter until base case is reached
+        return p_check(string[1:-1])    # Will check each letter until base case is reached
     else:
         false()
 
