@@ -17,6 +17,7 @@ def p_check(string):
     string.strip()
     string = string.lower().replace(" ", "")
     print(string)
+    time.sleep(0.5)
     if len(string) < 1:      # BASE CASE
         true()
     elif string[0] == string[-1]:
@@ -33,6 +34,7 @@ def welcome():
     p_check(usrstring)
     time.sleep(2)
     next()
+
 
 def next():
     print("Now what?")
