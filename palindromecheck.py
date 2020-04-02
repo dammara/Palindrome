@@ -32,7 +32,7 @@ def welcome():
     usrstring = str(input(">>>"))
     p_check(usrstring)
     time.sleep(2)
-
+    next()
 
 def next():
     print("Now what?")
@@ -52,4 +52,3 @@ def next():
 
 # Program starts here
 welcome()
-next()
