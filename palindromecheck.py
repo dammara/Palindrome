@@ -46,7 +46,7 @@ def next():
     elif choice == 2:
         exit()
     else:
-        print("INVALID")
+        print("INVALID CHOICE")
         time.sleep(1)
         next()
 
